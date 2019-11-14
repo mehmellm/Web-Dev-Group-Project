@@ -1,0 +1,22 @@
+body{text-align: center;
+     margin-left: 30%;
+     margin-right: 30%;
+     padding:10px;
+	background: lightblue url("DerkB.png") no-repeat top left;
+	background-size:cover;
+
+     }
+h1{background-color:#dab420;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   border-style: solid;
+   font-style: bold;
+   margin-top:100px; }
+form{background-color:lightblue;
+     border-style: inset;
+     text-align:left;}
+legend{border-style:outset;
+       border-size: 1px;
+       background-color:lightgrey;
+       text-align:left;
+       font-style: bold;}

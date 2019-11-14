@@ -1,0 +1,30 @@
+/*Style Sheet for user pages like student and teacher...*/
+
+body{ margin-left: 10%;
+	margin-right: 10%;
+	background: lightblue url("DerkB.png") no-repeat top left;
+	background-size: 100% 100%;
+}
+
+h2{background-color: #dab420;
+font-style:bold;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border: 2px solid grey;
+padding: 3px;
+margin-right: 66%;
+}
+
+form{background-color: lightblue;
+	border:3px double #dab420;
+	border-radius: 3px;
+	margin-right:15%;
+}
+
+table,th,td{border: 3px double black; background-color: lightslategray;
+            padding: 5px; margin-left: 10%; margin-right: 10%; width:66%;}
+
+ul,ol{border: 3px solid black; background-color: lightslategray;
+
+            padding: 5px; margin-left: 10%; margin-right: 10%; width:66%;
+}

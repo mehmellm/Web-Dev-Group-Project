@@ -1,0 +1,24 @@
+<html>
+<head>
+<script>
+function verify() {
+    if (document.getElementById("username").value != "" || document.getElementById("email").value != "")
+        return true
+    else {
+        alert("Your username cannot be empty")
+        return false
+    }
+}
+</script>
+</head>
+<body>
+<form method="post" action="request_pw_reset.php" onsubmit="return verify()">
+<label for="username">Username</label>
+<input type="text" name="username" id="username"/>
+<br>
+<input type="submit" value="Submit request">
+</form>
+
+<button value="go to login"><a href="../sqlLogin.php">go back</a></button>
+
+</body>

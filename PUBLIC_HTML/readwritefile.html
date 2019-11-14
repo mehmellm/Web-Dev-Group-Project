@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Test of reading/writing files</title>
+
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script>
+function getFile() {
+     $("#thetext").load("sometext.txt")
+}
+function changeFile() {
+     var newtext = $("#thetext").val();
+alert("newtext="+newtext)
+     
+     $.post('changefile.php', { data: newtext }, function(result) {
+           // success
+           alert('the data was successfully sent to the server');
+      })
+}
+</script>
+</head>
+<body>
+<form>
+<div id="central" style="width:400px;height:200px;overflow:hidden;border-style:solid">
+<textarea id="thetext" name="thetext" style="width:400px;height:200px">...</textarea>
+</div>
+<input type="button" onclick="getFile()" value="Get file" />
+<input type="button" onclick="changeFile()" value="Write changes to file"/>
+</form>
+</body>
+</html>

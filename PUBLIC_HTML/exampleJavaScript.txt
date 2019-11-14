@@ -1,0 +1,54 @@
+'''
+This is a javascript codes for security.
+make sure you have "onclick="return clicked()" in input tag of submit.
+
+Example:
+<input type="submit" id="signUp" name="signUp" value="register"
+onclick="return clicked();"> 
+
+
+'''
+<script type="text/javascript">
+        function clicked() {
+            if (document.getElementById('name').value == "" ||
+document.getElementById('username').value == ""
+            || document.getElementById('email').value == ""||
+document.getElementById('password').value == ""
+            || document.getElementById('password2').value == ""){
+                alert('Please make sure fill all fields')
+                return false;
+            }else {
+                if (document.getElementById('name').value.includes(";") ||
+document.getElementById('username').value.includes(";")
+                || document.getElementById('email').value.includes(";")||
+document.getElementById('password').value.includes(";")
+                || document.getElementById('password2').value.includes(";")){
+                    alert('";" cannot be used')
+                    return false;
+                }else {
+                    return true;
+                }
+            }
+        }
+    </script>
+
+<script type="text/javascript">
+        var username = '<?php echo $username; ?>';
+        function clicked() {
+        if (document.getElementById('userid').value != ""){
+            if (document.getElementById('userid').value == username ){
+                    alert('admin user cannot delete your account')
+                    return false
+            }else{  
+                if (confirm('Do you want to delete?')) {
+                    return true
+                }
+                else {
+                    return false;
+                }
+            }
+        }else{
+                alert('fill the textfield')
+        }
+        }
+    </script>

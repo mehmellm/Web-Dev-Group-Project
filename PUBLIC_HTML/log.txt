@@ -1,0 +1,145 @@
+CSC380 Group f
+Ryusei Sashida, Nick O'Keefe, Lucas Mehmel
+
+scribe = Lucas Mehmel
+Key:
+    (C)= Complete
+
+Date:Feb 4th
+
+1) made Ryusei the chef (C)
+2) worked on the handout given 
+3) did everything on the handout except the last one (C)
+
+Date:Feb 8th
+
+1)Ryusei worked on making the code for the login (C)
+2)Lucas changed the permissions for our directory (C)
+3)Nick helped with both (C)
+
+Date:Feb 11th
+
+1) register.html works (C)
+2) working on a login.html (C)
+3) login now works. (C)
+4) Nick is working on some design for login and register.html called LoginAndRegStylesheet.css (C)
+5) Ryusei is working on the session.php seperating between student and teacher (C)(C)
+ 
+Date: Feb 18th
+
+1) No lab today. presidents day break.
+
+
+Date: Feb 25th
+
+1)Lucas is adding in the encription for register and login. He also changed it so that when someone registers they will
+  go to login.html. (C)
+2)Ryusei added a create course button for teachers and a page to create courses. (C)
+3)Nick is adding a logout button in student page, and adding a pop when a username is being duplicated in register.(C)
+
+Date: Feb 27th
+
+1)Ryusei is working on a register for courses function for students
+2)Lucas is add Sessions to all files that are php and have html in them. (C)
+3)NIck fixed errors in multiple files. (C)
+
+Date: March 4th
+
+1)Nick is making an html file for Results for quizzes.
+
+
+Date: March 8th
+
+1)Lucas corrected everyfile making sure that the header location is sqlLogin.php
+2)Nick is refactoring code.
+
+Date: March 11th
+
+1)Ryusei add a place for real names in the login and the level if a student
+2)Lucas added the index.html and made some corrections to release.php that Ryusei created
+3)Lucas is helping with error testing for release.php
+3)Nick did not show up today.
+
+Date: March 13th
+
+1)Ryusei and Lucas fixed it so students can take a quiz and the answer will show up for the teacher.
+2)Nick is doing the write up for what is to be handed in on Friday.
+
+Date: March 14th
+1)Finishing up report for turnin on Friday
+
+Note: Ryusei did a lot of work outside of class and lab. He didnt keep track of when and what he did.
+
+
+Date: March 18th-24th
+1) spring Recesses
+
+Date: March 25th
+1) Nick working on CSS and refactoring
+2) Lucas and Ryusei worked on teacher tags for teachers
+
+Date: April 1st
+1) Nick working on CSS and refactoring
+2) Ryusei is working on Levinshtein algo 
+3) Lucas is doing some testing on teacher page and the quizes
+
+Date: April 3rd
+1) Nick working on CSS and refactoring
+2) Ryusei is working on Levinshtein functionality
+3) Lucas created admin page and the three buttons with the pages for the changepassword
+	change role, and delete username
+
+Date: April 8th
+1) Nick working on CSS and refactoring
+2) Ryusei is working on adding the code for delete username and change role
+3) Lucas is adding code for changeing password in the admin
+
+Date: April 10th
+1) Nick working on CSS and refactoring
+2) Ryusei is working on adding the code for delete username and change role
+3) Lucas is adding code for changeing password in the admin and testing
+
+Date: April 12th
+1) Nick working on CSS and refactoring
+2) Ryusei is working on change password for the login page
+3) Lucas is adding go back buttons to the admin page as well as testing all admin buttons
+
+Date: April 15th
+1) Nick working on CSS and refactoring and some html
+2) Ryusei is debugging
+3) Lucas is adding javascript functions to all pages with inputs to check if empty
+	Security improvements
+
+Date: April 18th
+1) Ryusei worked on chat functionality for students and teachers
+	added multiple classes 
+	scramble order of multiple choice
+	added timestamps
+	added making question with answer available for students when revealed
+
+Date: April 22nd
+1) Nick is doing CSS and HTML
+2) Ryusei is fixing stats for quizes on teacher page
+3) Lucas added more javascript to the pages Ryusei created over break and updating log
+
+ 
+
+
+Date: April 24th
+1) Lucas made the "go back" buttons on pages that still needed them as well as
+testing with Nick and debugged
+2) Nick worked on chat and testing
+3)Ryusei worked on debugging and chat
+
+Date: April 26th
+1)Nick and Lucas were testing and dubbing errors
+2)Ryusei was fixing errors on chat and refresh button
+
+Date: April 29th
+1)all three did error testing and debugging
+
+Date: May 1st
+1)all three did error testing and debugging
+2)had demo for Dr. Meyer
+3)Finished project!!!!
+4)need to do Documentation!!!

@@ -1,0 +1,9 @@
+Square root of 25;What is(are) the square root(s) of 25?;5,-5
+***
+Best data structure for bfs;What is the best data structure for
+doing a breadth-first-search of a tree?;
+a queue
+***
+Who was the first president of the U.S.A.?;
+*;
+George Washington

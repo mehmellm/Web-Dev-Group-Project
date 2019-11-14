@@ -1,0 +1,38 @@
+<script>
+
+
+    memos = []    // will be used as a dictionary (hashmap)
+
+//i is the start index of str1, j is the start index of str2
+   function LevenshteinDistance(str1,  i,  len1,  str2,  j,  len2) {
+   var key = i+"," + len1 + "," + j + "," + len2; 
+
+   if(memos[key] != undefined) return memos[key]
+   
+   if(len1 == 0) return len2;
+   if(len2 == 0) return len1;
+   var cost = 0;
+   if(str1.charAt(i) != str2.charAt(j)) cost = 1
+   
+   var dist = min3(
+       LevenshteinDistance(str1, i+1,len1-1, str2,j,len2)+1, 
+       LevenshteinDistance(str1,i,len1,str2,j+1,len2-1)+1,
+       LevenshteinDistance(str1,i+1,len1-1,str2,j+1,len2-1)+cost);
+   memos[key] = dist
+   return dist;
+}
+
+function min3(a, b, c) {
+     if (a < b && a < c)
+          return a;
+     if (b < a && b < c)
+          return b;
+     return c;
+}
+
+str1 = prompt("Enter string 1")
+str2 = prompt("Enter string 2")
+
+dist = LevenshteinDistance (str1, 0, str1.length, str2, 0, str2.length);
+alert("distance = "+dist)
+</script>
